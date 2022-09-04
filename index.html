@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halva Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id = 'navbar'>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#serving">HALVA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#serving">SERVINGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+<button type="button" class="btn p-2 my-lg-0 my-2" data-bs-toggle="modal" data-bs-target="#signinpop">
+  SIGN UP
+</button>
+          </div>
+        </div>
+      </nav>
+      <!--modal pop up -->
+      <div class="modal" id="signinpop"  aria-labelledby="exampleModalLabel" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Siging you up !
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Home -->
+<section id="home">
+<h1 class="text-center"> Halva </h1> <h6 class="text-center"> <pre>           The Delight</pre> </h6> 
+
+  <p>
+    A Variety of Halva, Served with Quality and Style!
+  </p>
+<div class="input-group m-4">
+  <input type="text" class="form-control" placeholder="E-mail">
+  <button class="btn signin"  data-bs-toggle="modal" data-bs-target="#mail">Get Served</button>
+</div>
+  <!-- mail pop up -->
+  <div class="modal" id="mail"  aria-labelledby="exampleModalLabel" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">E-Mail</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Email saved !
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 my-2">
+        <img class="img-fluid" src="https://th.bing.com/th/id/OIP.zV8u-nUPUgRKrVswWIWMIQHaHa?pid=ImgDet&rs=1" alt="">
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 p=lg-5 p-2">
+        <h1> ABOUT US</h1>
+        <p> <br>
+          Is winter even winter if you’ve not had at least one bowl full of halwa? An integral part of the Indian dessert family, it is prepared primarily in the winters because carrots are a winter vegetable. Many, however, have to abstain from it because of the high number of calories it contains. <br> <br>
+          In our opinion, no one should keep themselves away from this sweet goodness. Hence, we’ve brought you varieties of halwa which are low on the calorie but scores big time in the taste department. So, enjoy the beloved dessert without compromising on taste or health!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- serving-->
+<section id="serving">
+  <div class="container m-5">
+  <h1 class="text-center my-5">
+    SERVINGS!!!
+  </h1>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-12">
+
+      <div class="card">
+        <img src="prod1.jfif" class="card-img-top" alt="prod1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Carrot halwa</h5>
+          <a  class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+          
+        </div>
+      </div> </div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+      <div class="card" >
+        <img src="prod2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Maida Halwa</h5>
+          <a  class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+        </div>
+      </div></div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+      <div class="card" >
+        <img src="prod3.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Dates Halwa</h5>
+          <a href="#" class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+        </div>
+      </div></div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="card" >
+          <img src="prod4.jfif" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Jack Fruit Halwa</h5>
+            <a href="#" class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+          </div>
+        </div></div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card" >
+            <img src="prod5.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bombay Halwa</h5>
+              <a href="#" class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+            </div>
+          </div></div>
+
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card" >
+              <img src="prod6.jfif" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Wheat Halwa</h5>
+                <a href="#" class="btn signin" data-bs-toggle="modal" data-bs-target="#cart">Add to Cart</a>
+              </div>
+            </div></div>
+
+    </div>
+  </div>
+
+  <!-- cart pop up -->
+   <div class="modal" id="cart"  aria-labelledby="exampleModalLabel" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add to Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Adding to cart !
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+<div class="container box">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="sweet.jfif" alt="" class="img-fluid">
+    </div>
+    <div class="col-lg-6 col-md-6 col-12">
+      <h1> CONTACT US</h1>
+      <form class="mb-3">
+        <input type="text" class="form-control" placeholder="Name">
+        <input type="email" class="form-control" placeholder="E-Mail">
+        <textarea class="form-control" placeholder="Comments Here"></textarea>
+        <button class="btn signin"  data-bs-toggle="modal" data-bs-target="#sendmsg"> Send </button>
+
+      </form>
+    </div>
+
+  </div>
+</div>
+
+  <!-- msg pop up -->
+  <div class="modal" id="sendmsg"  aria-labelledby="exampleModalLabel" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Message Sent !
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer> Copyrights @Aravind_S</footer>
+
+</body>
+</html>
